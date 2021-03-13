@@ -2,7 +2,7 @@
 
 - Working on ... HTMLでWebページ作成中
 - Learning ... HTML,CSS,jQuery
-- How to reach me: ... Twitter,Discord
+- How to reach me: ... [Twitter](https://mobile.twitter.com/momizi_th10),Discord
 - Pronouns: ... HeでもYouでも“変な人”でもなんでも良し
 - Fun fact: ... ガバキック依存症
 
