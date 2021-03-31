@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body {
+    background: #eee;
+}
+
+header {
+    background: #222;
+    color: #eee;
+}
+
+footer {
+    background: #bbb;
+    color: #222;
+}
