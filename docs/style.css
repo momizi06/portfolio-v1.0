@@ -1,11 +1,37 @@
 @charset "UTF-8";
+
+:root {
+    --head-txt: #222;
+    --head-bg:  #fab464;
+    --main-txt: #222;
+    --main-bg:  #c0f2fb;
+
+    --body-bg: #eee;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --head-txt: #fcddbb;
+        --head-bg:  #24211c;
+        --main-txt: #c0f2fb;
+        --main-bg:  #222;
+
+        --body-bg: #111;
+    }
+}
+
+
 body {
-    background: #eee;
+    background: var(--body-bg);
 }
 
 header {
-    background: #222;
-    color: #eee;
+    background: var(--head-bg);
+    color: var(--head-txt);
+}
+
+main {
+    background: var(--main-bg);
+    color: var(--main-txt);
 }
 
 footer {
