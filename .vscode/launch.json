@@ -1,0 +1,16 @@
+{
+    "configurations": [  
+    {
+        "name": "Launch index.html in Microsoft Edge",
+        "type": "edge",
+        "request": "launch",
+        "file": "${workspaceFolder}/docs/HTML/index.html"
+    },
+    {
+        "name": "Launch index.html in Google Chrome",
+        "type": "chrome",
+        "request": "launch",
+        "file": "${workspaceFolder}/docs/HTML/index.html"
+    },
+    ]
+}
