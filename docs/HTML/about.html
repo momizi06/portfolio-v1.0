@@ -5,6 +5,34 @@
         <title>momizi06のなぞの箱 - momizi06について</title>
         <meta name="viewport" content="width=device-width" />
         <link rel="stylesheet" href="../style.css" />
+
+        <style>
+            :root { 
+                --pxdot: 1px dotted;
+            }  
+
+
+            #tableme th,td {
+                border-top: var(--pxdot);
+                padding: 10px;
+            }
+
+            #tableme th{
+                text-align: left;
+                border-right: var(--pxdot);
+                background-color: yellow;
+            }
+
+            #tableme {
+                border-bottom: var(--pxdot);
+            }
+            /*data-width="70vw"*/
+            #twitter-tl {
+                text-align: center;
+                width: 80vw;
+                height: 70vh;
+            }
+        </style>
     </head>
 
     <body>
@@ -34,8 +62,65 @@
             </header>
 
             <main>
+                <section id="widpad">
                 <h1>momizi06について</h1>
                 <p>ゆるく自己紹介します</p>
+
+                <section id="aboutme">
+                    <h2>何やってる人？</h2>
+                    <p>コードを書いたりゲームやったりハードコアテクノでヘドバンしてる人です。無駄に「Google Soritaire」のRTA記録持ってます。</p>
+
+                    <h2>もちっと普通の紹介</h2>
+                    
+                    <table id="tableme">
+                        <tr>
+                            <th>年齢</th>
+                            <td>秘密</td>
+                        </tr>
+
+                        <tr>
+                            <th>性別</th>
+                            <td>男</td>
+                        </tr>
+
+                        <tr>
+                            <th>特徴</th>
+                            <td>やる気のあることは多分朝から晩までできるけどそれ以外のことはやる気が出ない</td>
+                        </tr>
+                        <tr>
+                            <th>趣味</th>
+                            <td>ゲームとかHTML書いたりすることとか</td>
+                        </tr>
+                        
+                        <tr>
+                            <th>好きなもの</th>
+                            <td>てえてえもの。異論は認めん。</td>
+                        </tr>
+                        
+                        <tr>
+                            <th>好きなキャラ</th>
+                            <td>ケモミミ(特に狼耳とか犬耳)ついてる女の子, バフコ(清楚系VTuber), がうるぐら(VTuber)</td>
+                        </tr>
+                        
+                        <tr>
+                            <th>好きな作品・ゲーム</th>
+                            <td>東方Project, Arcaea, ゆるキャン△, ザ・シューター/極大射程, 新劇場版エヴァンゲリオン</td>    
+                        </tr>
+
+                        <tr>
+                            <th>好きな言語</th>
+                            <td>HTML, CSS, Javascript, Python</td>
+                        </tr>    
+                    </table>
+
+                </section>
+
+                <div id="twitter-tl">
+                    <a class="twitter-timeline" data-theme="light"  data-height="70vh"  href="https://twitter.com/momizi_th10?ref_src=twsrc%5Etfw">Tweets by momizi_th10</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+
+            </section>
             </main>
 
             <footer>
