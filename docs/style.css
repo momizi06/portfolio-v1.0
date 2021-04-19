@@ -65,7 +65,8 @@ nav {
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  transition: all .5s;
+  -webkit-transition: all .5s;
+          transition: all .5s;
   z-index: 4;
   opacity: 0;
 }
@@ -95,7 +96,8 @@ nav .inner ul li a {
   font-size: 14px;
   padding: 1em;
   text-decoration: none;
-  transition-duration: .2s;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
   font-family: sans-serif;
 }
 nav .inner ul li a:hover {
@@ -116,7 +118,8 @@ nav .inner ul li a:hover {
   right: 30px;
   width: 30px;
   height: 30px;
-  transition: all .5s;
+  -webkit-transition: all .5s;
+          transition: all .5s;
   cursor: pointer;
   z-index: 4;
 }
@@ -129,7 +132,8 @@ nav .inner ul li a:hover {
   height: 2px;
   background-color: #222;
   border-radius: 4px;
-  transition: all .5s;
+  -webkit-transition: all .5s;
+          transition: all .5s;
 }
 .toggle_btn span:nth-child(1) {
   top: 4px;
@@ -157,7 +161,8 @@ nav .inner ul li a:hover {
 
 #mask {
   display: none;
-  transition: all .5s;
+  -webkit-transition: all .5s;
+          transition: all .5s;
 }
 .open #mask {
   display: block;
@@ -175,4 +180,13 @@ nav .inner ul li a:hover {
 #widpad {
   width: 80%;
   padding: 0 10% 0 10%;
+}
+
+a, a:visited {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #777;
 }

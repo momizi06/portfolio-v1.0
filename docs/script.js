@@ -1,6 +1,10 @@
 // suki
 console.log('hello!');
 
+$(function(){
+    console.debug('page loded.')
+});
+
 (function($) {
     var $nav   = $('#navArea');
     var $btn   = $('.toggle_btn');
