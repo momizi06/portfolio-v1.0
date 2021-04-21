@@ -2,7 +2,7 @@
 console.log('hello!');
 
 $(function(){
-    console.debug('page loded.');
+    console.debug('page loaded.');
 });
 
 (function($) {
