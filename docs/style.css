@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Noto+Sans+JP:wght@700&display=swap');
+
+
 :root {
   --head-txt: #222;
   --head-bg: #fab464;
@@ -22,6 +25,7 @@
 
 body {
   background: var(--body-bg);
+  font-family: 'M PLUS 1p', sans-serif;
 }
 
 .wrapper {
@@ -38,6 +42,7 @@ header {
   color: var(--head-txt);
   text-align: center;
   padding: 7vh 0;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 main {
