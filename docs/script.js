@@ -22,4 +22,4 @@ $(function(){
     $mask.on('click', function() {
         $nav.removeClass( open );
     });
-} )(jQuery);
+});
